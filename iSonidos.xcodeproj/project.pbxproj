@@ -12,6 +12,8 @@
 		E3B61726237454FB00B3BF27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B61724237454FB00B3BF27 /* Main.storyboard */; };
 		E3B61728237454FD00B3BF27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3B61727237454FD00B3BF27 /* Assets.xcassets */; };
 		E3B6172B237454FD00B3BF27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B61729237454FD00B3BF27 /* LaunchScreen.storyboard */; };
+		E3B61734237C289500B3BF27 /* latigo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3B61733237C289500B3BF27 /* latigo.mp3 */; };
+		E3B61737237C2A0800B3BF27 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B61736237C2A0800B3BF27 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E3B61727237454FD00B3BF27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3B6172A237454FD00B3BF27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3B6172C237454FD00B3BF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3B61733237C289500B3BF27 /* latigo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = latigo.mp3; sourceTree = "<group>"; };
+		E3B61736237C2A0800B3BF27 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3B61737237C2A0800B3BF27 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				E3B6171F237454FB00B3BF27 /* iSonidos */,
 				E3B6171E237454FB00B3BF27 /* Products */,
+				E3B61735237C2A0800B3BF27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +66,25 @@
 				E3B61727237454FD00B3BF27 /* Assets.xcassets */,
 				E3B61729237454FD00B3BF27 /* LaunchScreen.storyboard */,
 				E3B6172C237454FD00B3BF27 /* Info.plist */,
+				E3B61732237C286400B3BF27 /* sonidos */,
 			);
 			path = iSonidos;
+			sourceTree = "<group>";
+		};
+		E3B61732237C286400B3BF27 /* sonidos */ = {
+			isa = PBXGroup;
+			children = (
+				E3B61733237C289500B3BF27 /* latigo.mp3 */,
+			);
+			path = sonidos;
+			sourceTree = "<group>";
+		};
+		E3B61735237C2A0800B3BF27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3B61736237C2A0800B3BF27 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3B61734237C289500B3BF27 /* latigo.mp3 in Resources */,
 				E3B6172B237454FD00B3BF27 /* LaunchScreen.storyboard in Resources */,
 				E3B61728237454FD00B3BF27 /* Assets.xcassets in Resources */,
 				E3B61726237454FB00B3BF27 /* Main.storyboard in Resources */,
